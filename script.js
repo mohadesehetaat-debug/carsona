@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const submitBtn = document.getElementById("submitBtn");
+  submitBtn.addEventListener("click", showResult);
+});
+
 function showResult() {
   let total = 0;
   for (let i = 1; i <= 5; i++) {
@@ -14,7 +19,7 @@ function showResult() {
     resultText = "ماشین مناسب شما: کلاسیک، نرم و اقتصادی مثل پژو ۲۰۶ یا تویوتا یاریس.";
   } else if (total <= 10) {
     resultText = "ماشین مناسب شما: اسپرت و سریع مثل مزدا ۳ یا کیا سراتو.";
-  } else if (total <= 15) {
+  } else {
     resultText = "ماشین مناسب شما: خشن، پرقدرت و خاص مثل موستانگ یا شورولت کامارو.";
   }
 
