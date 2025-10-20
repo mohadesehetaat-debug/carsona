@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>تست شخصیت ماشین</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>تست شخصیت ماشین 🚗</h1>
+  <form id="quizForm">
+    <div class="question">
+      <label>۱. چقدر عاشق سرعت هستی؟</label><br>
+      <input type="radio" name="q1" value="1"> کم<br>
+      <input type="radio" name="q1" value="2"> متوسط<br>
+      <input type="radio" name="q1" value="3"> زیاد<br>
+    </div>
+
+    <div class="question">
+      <label>۲. ظاهر ماشین چقدر برات مهمه؟</label><br>
+      <input type="radio" name="q2" value="1"> اصلاً<br>
+      <input type="radio" name="q2" value="2"> یکم<br>
+      <input type="radio" name="q2" value="3"> خیلی زیاد<br>
+    </div>
+
+    <div class="question">
+      <label>۳. ترجیح می‌دی ماشینت چه صدایی بده؟</label><br>
+      <input type="radio" name="q3" value="1"> بی‌صدا و نرم<br>
+      <input type="radio" name="q3" value="2"> صدای معمولی<br>
+      <input type="radio" name="q3" value="3"> غرش خشن<br>
+    </div>
+
+    <div class="question">
+      <label>۴. ماشینت باید چند نفره باشه؟</label><br>
+      <input type="radio" name="q4" value="1"> دو نفره<br>
+      <input type="radio" name="q4" value="2"> چهار نفره<br>
+      <input type="radio" name="q4" value="3"> خانوادگی<br>
+    </div>
+
+    <div class="question">
+      <label>۵. چقدر اهل سفرهای جاده‌ای هستی؟</label><br>
+      <input type="radio" name="q5" value="1"> خیلی کم<br>
+      <input type="radio" name="q5" value="2"> گاهی<br>
+      <input type="radio" name="q5" value="3"> همیشه در سفرم<br>
+    </div>
+
+    <button type="button" onclick="showResult()">مشاهده نتیجه</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
